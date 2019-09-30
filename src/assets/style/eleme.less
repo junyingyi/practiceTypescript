@@ -1,0 +1,87 @@
+@import '~@/assets/style/mixin.less';
+.act_radio {
+  .mint-checkbox-input:checked + .mint-checkbox-core {
+    background: #fd5f56;
+    border-color: #fd5f56;
+  }
+  .mint-cell-wrapper {
+    font-size: 12px;
+  }
+  .mint-radio-core {
+    // width: 15px;
+    // height: 15px;
+  }
+}
+
+.actf_line {
+  line-height: 30px;
+  margin-top: 0.2rem;
+  label {
+    display: block;
+    font-weight: bold;
+    i {
+      color: #f00;
+      margin-right: 3px;
+    }
+  }
+  p {
+    i {
+      color: #fd5f56;
+    }
+    strong {
+      font-size: 0.28rem;
+    }
+  }
+}
+
+.act_btn {
+  margin-top: 20px;
+  // background: #fd5f56;
+  color: #fff;
+  font-size: 18px;
+  display: inline-block;
+  padding: 0px 30px;
+  line-height: 40px;
+  border-radius: 40px;
+  width: 3.18rem;
+  box-sizing: border-box;
+}
+.fillIn {
+  position: relative;
+  input {
+    padding: 0.2rem;
+    width: 100%;
+    border-radius: 0.1rem;
+    border: none;
+    font-size: 0.28rem;
+    background-color: #ffffff;
+    border-bottom: 1px solid #f2f2f2;
+    box-sizing: border-box;
+    color: #666;
+    font-size: 0.24rem;
+  }
+  .fill_code {
+    input {
+      padding-right: 2rem;
+    }
+  }
+  .hint {
+    color: #fd5f56;
+    height: 0.28rem;
+    line-height: 0.28rem;
+    position: absolute;
+    left: 10px;
+    bottom: -16px;
+  }
+  select {
+    width: 5rem;
+    height: 0.6rem;
+    border: 1px solid #eaeaea;
+    box-sizing: border-box;
+  }
+}
+.selection {
+  select {
+    margin-top: 0.2rem;
+  }
+}
