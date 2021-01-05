@@ -13,7 +13,7 @@
     "history:dist": "node ./server"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "dsbridge": "^3.1.4",
     "element-ui": "^2.4.6",
     "mint-ui": "^2.2.13",
